@@ -87,7 +87,7 @@ class Payir implements Gateway
                 ->required()
                 ->rules('required'), 
 
-            Boolean::make(__('Sandbox'), 'sandbox'),
+            // Boolean::make(__('Sandbox'), 'sandbox'),
         ];
     }  
 
